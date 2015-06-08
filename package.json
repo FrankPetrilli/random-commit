@@ -1,0 +1,25 @@
+{
+  "name": "random-commit",
+  "version": "1.0.0",
+  "description": "Generate a random commit for your git",
+  "main": "run.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha test.js"
+  },
+  "author": "Frank Petrilli",
+  "license": "GPL",
+  "dependencies": {
+    "fs": "*",
+    "express": "*",
+    "body-parser": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:/FrankPetrilli/random-commit.git"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "sleep": "*",
+    "supertest": "*"
+  }
+}
